@@ -205,15 +205,7 @@ Memcached uses stock configuration and binds to localhost.
 
 ### Redis
 
-Redis is **not started on boot**. To make Travis CI start the service for you, add
-
-    services:
-      - redis-server
-
-to your `.travis.yml`.
-
-Redis uses stock configuration and is available on localhost.
-
+Redis is **started on boot**, uses stock configuration and is available on localhost.
 
 ### Cassandra
 
